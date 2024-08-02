@@ -1,0 +1,35 @@
+.slider {
+  position: relative;
+  height: 100%;
+}
+
+.left__arrowstyles {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  left: 32px;
+  font-size: 45px;
+  color: #000;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.right__arrowstyles {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: 32px;
+  font-size: 45px;
+  color: #000;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.container__styles {
+  width: 98vw;
+  height: 100vh;
+  marginleft: auto;
+  marginright: auto;
+  maxwidth: 1500px;
+  padding-left: 0.5rem;
+}

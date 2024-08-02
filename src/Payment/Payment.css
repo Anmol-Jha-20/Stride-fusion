@@ -1,0 +1,105 @@
+.payment {
+  background-color: white;
+}
+.payment_container > h1 {
+  text-align: center;
+  padding: 10px;
+  font-weight: 400;
+  background-color: rgb(234, 237, 237);
+  border-bottom: 1px solid lightgray;
+}
+
+.payment_container > h1 a {
+  text-decoration: none;
+}
+
+.payment_section {
+  display: flex;
+  padding: 20px;
+  margin: 0 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+.payment_title {
+  flex: 0.2;
+}
+
+.payment_address,
+.payment_items,
+.payment_details {
+  flex: 0.8;
+}
+
+.payment_details form {
+  padding: 20px;
+  width: 700px;
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.payment_details form .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.payment_details form .row .col {
+  flex: 1 1 250px;
+}
+
+.payment_details form .row .col .title {
+  font-size: 20px;
+  color: #333;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.payment_details form .row .col .inputBox {
+  margin: 15px 0;
+}
+
+.payment_details form .row .col .inputBox span {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.payment_details form .row .col .inputBox input {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+  font-size: 15px;
+  text-transform: none;
+}
+
+.payment_details form .row .col .inputBox input:focus {
+  border: 1px solid #000;
+}
+
+.payment_details form .row .col .flex {
+  display: flex;
+  gap: 15px;
+}
+
+.payment_details form .row .col .flex .inputBox {
+  margin-top: 5px;
+}
+
+.payment_details form .row .col .inputBox img {
+  height: 34px;
+  margin-top: 5px;
+  filter: drop-shadow(0 0 1px #000);
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 17px;
+  background: #27ae60;
+  color: #fff;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background: #2ecc71;
+}
