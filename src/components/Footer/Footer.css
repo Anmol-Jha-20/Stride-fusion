@@ -1,0 +1,27 @@
+@media (orientation: portrait) {
+  .shoes {
+    margin-top: 0.25rem;
+  }
+  .kids {
+    margin-top: 2px;
+  }
+  .support {
+    margin-top: 0px;
+  }
+  .sports__container {
+    display: none;
+  }
+  .space__top {
+    margin-top: 0.25rem;
+  }
+  .support__container .safety {
+    display: inline;
+  }
+  .none {
+    display: none;
+  }
+}
+
+.safety {
+  display: none;
+}

@@ -76,13 +76,13 @@ function Home() {
         </div>
       </div>
       <div className="card mt-20 relative">
-        <div className="text-2xl pl-5 my-6 flex">Trending</div>
+        <div className="trending text-2xl pl-5 my-6 flex">Trending</div>
         <HomeCard
           username="Nike Alate Bra"
           src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_848,c_limit/98109be2-1124-4d08-9b58-1d2388dbadf4/image.jpg"
           text="Looks Smooth, Feels Smoother"
         />
-        <div className="absolute top-[6.6%] left-[47%]">
+        <div className="just__in absolute top-[6.6%] left-[47%]">
           <HomeCard
             username="Just In: Air Max Dn"
             src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_761,c_limit/3c39a38c-9064-4e47-a740-b4d3d64d0e7a/image.png"
