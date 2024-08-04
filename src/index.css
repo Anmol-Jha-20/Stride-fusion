@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@media (orientation: portrait) {
+  #root {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+}

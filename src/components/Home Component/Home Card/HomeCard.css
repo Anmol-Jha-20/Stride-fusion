@@ -1,0 +1,6 @@
+@media (orientation: portrait) {
+  .home__card {
+    width: 18.75rem;
+    height: 25rem;
+  }
+}
