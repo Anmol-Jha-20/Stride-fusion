@@ -1,3 +1,13 @@
 .cart i {
   font-size: 26px;
 }
+
+@media (orientation: portrait) {
+  .header__elements .element {
+    display: none;
+  }
+  .header__input input,
+  .header__input button {
+    display: none;
+  }
+}

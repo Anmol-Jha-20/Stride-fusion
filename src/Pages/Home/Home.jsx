@@ -6,6 +6,7 @@ import OuterSlider from "../../components/Home Component/Image Slider/OuterSlide
 import ProductSlider from "../../components/Home Component/Product Slider/ProductSlider.jsx";
 import SportSlider from "../../components/Home Component/Home Sport/SportSlider.jsx";
 import { Link } from "react-router-dom";
+import "./Home.css";
 
 function Home() {
   return (
@@ -21,7 +22,7 @@ function Home() {
           ></video>
         </div>
       </div>
-      <div className="pt-[112rem]">
+      <div className="featured pt-[112rem]">
         <div className="text-2xl pl-5">Featured</div>
         <div className="scroll__products flex overflow-x-auto gap-5 mt-3">
           <Link to="/stussyy">

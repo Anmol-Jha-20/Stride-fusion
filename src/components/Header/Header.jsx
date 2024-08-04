@@ -23,13 +23,13 @@ function Header() {
             </Link>
           </div>
           <div className="header__elements flex m-[1.5rem]">
-            <div className="text-xl px-2 py-3">New & Featured</div>
-            <div className="text-xl px-2 py-3">Men</div>
-            <div className="text-xl px-2 py-3">Women</div>
-            <div className="text-xl px-2 py-3">Kids</div>
-            <div className="text-xl px-2 py-3">Sale</div>
-            <div className="text-xl px-2 py-3">Customise</div>
-            <div className="text-xl px-2 py-3">Sneakers</div>
+            <div className="element text-xl px-2 py-3">New & Featured</div>
+            <div className="element text-xl px-2 py-3">Men</div>
+            <div className="element text-xl px-2 py-3">Women</div>
+            <div className="element text-xl px-2 py-3">Kids</div>
+            <div className="element text-xl px-2 py-3">Sale</div>
+            <div className="element text-xl px-2 py-3">Customise</div>
+            <div className="element text-xl px-2 py-3">Sneakers</div>
           </div>
           <div className="header__input m-[0.5rem] flex items-center">
             <input
