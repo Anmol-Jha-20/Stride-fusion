@@ -139,7 +139,7 @@ function ProductInfo({ id, rating, src, title, price, ratingtext = "5" }) {
                 </li>
                 <li>
                   Phylon TPR sole provides traction and grip over varied
-                  surfaces
+                  surfaces.
                 </li>
               </ul>
             </div>

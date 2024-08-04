@@ -103,3 +103,13 @@
 .submit-btn:hover {
   background: #2ecc71;
 }
+
+@media (orientation: portrait) {
+  .payment_section {
+    display: flex;
+    flex-direction: column;
+  }
+  .payment_details form {
+    width: 18.75rem;
+  }
+}

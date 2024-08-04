@@ -1,0 +1,6 @@
+@media (orientation: portrait) {
+  .checkout {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
