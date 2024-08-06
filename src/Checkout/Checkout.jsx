@@ -24,6 +24,7 @@ function Checkout() {
               rating={item.rating}
               ratingtext={item.ratingtext}
               price={item.price}
+              quantity={item.quantity}
             />
           ))}
         </div>

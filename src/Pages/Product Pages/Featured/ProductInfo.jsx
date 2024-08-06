@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 function ProductInfo({ id, rating, src, title, price, ratingtext = "5" }) {
   const [add, setAdd] = useState("Add to Cart");
   const [color, setColor] = useState("#c1c1c1");
+  const [quantity, setQuantity] = useState(1);
   const [{ basket, user }, dispatch] = useStateValue();
   const navigate = useNavigate();
   const addToBasket = () => {
@@ -19,6 +20,7 @@ function ProductInfo({ id, rating, src, title, price, ratingtext = "5" }) {
         price: price,
         rating: rating,
         ratingtext: ratingtext,
+        quantity: quantity,
       },
     });
     setAdd("Product Added in the Cart");
@@ -28,6 +30,9 @@ function ProductInfo({ id, rating, src, title, price, ratingtext = "5" }) {
       setColor("#c1c1c1");
     }, 1000);
   };
+  function handleQuantity(e) {
+    setQuantity(Number(e.target.value));
+  }
   return (
     <div>
       <div className="product-display m-24">
@@ -183,7 +188,11 @@ function ProductInfo({ id, rating, src, title, price, ratingtext = "5" }) {
               </p>
             </div>
             <h2 className="product-stock">In Stock</h2>
-            <select className="product-quantity">
+            <select
+              className="product-quantity"
+              value={quantity}
+              onChange={handleQuantity}
+            >
               <option value="1">Quantity: 1</option>
               <option value="2">Quantity: 2</option>
               <option value="3">Quantity: 3</option>
