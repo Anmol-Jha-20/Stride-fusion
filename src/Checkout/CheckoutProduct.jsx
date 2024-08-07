@@ -27,7 +27,7 @@ function CheckoutProduct({
       <div className="CheckoutProduct_info pl-5">
         <p className="checkoutProduct_title text-xl font-extrabold">{title}</p>
         <p>
-          <small>₹</small> <strong>{price}</strong>
+          <small>₹</small> <strong>{quantity * price}</strong>
         </p>
         <div className="checkoutProduct_rating flex">
           {ratingtext}

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./ProductSlider.css";
 
 function ProductSlider() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -56,7 +57,7 @@ function ProductSlider() {
         </button>
       </div>
       <div className="relative max-w-[80rem] mx-auto py-20">
-        <div className="flex overflow-hidden items-center justify-center gap-1 h-80">
+        <div className="product__image flex overflow-hidden items-center justify-center gap-1 h-80">
           {products
             .slice(currentIndex, currentIndex + 4)
             .map((products, index) => (

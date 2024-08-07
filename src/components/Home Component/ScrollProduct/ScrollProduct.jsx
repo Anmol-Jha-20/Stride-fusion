@@ -1,4 +1,5 @@
 import React from "react";
+import "./ScrollProduct.css";
 
 function ScrollProduct({ image, title }) {
   return (
