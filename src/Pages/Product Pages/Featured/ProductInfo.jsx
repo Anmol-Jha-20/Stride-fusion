@@ -122,7 +122,7 @@ function ProductInfo({ id, rating, src, title, price, ratingtext = "5" }) {
                   Comfortable Men's Sneakers :- Made from durable PU with mesh
                   and synthetic material, these mens sneakers are soft,
                   comfortable and breathable, bringing you comfort all day long,
-                  ideal for daily wear and sports
+                  ideal for daily wear and sports.
                 </li>
                 <li>
                   Non-slip Chunky Sneakers :- The anti-slip and chunky TPR
@@ -134,7 +134,7 @@ function ProductInfo({ id, rating, src, title, price, ratingtext = "5" }) {
                   Stylish Design :- Solid colors combination, unique laces,
                   Mesh,making color contrast for visual impact. Pair with your
                   favorite cloth for a fabulous look or with your everyday
-                  casual for effortless chic style
+                  casual for effortless chic style.
                 </li>
                 <li>
                   Fashion Sneakers :- These sneakers for men athletic wear,
@@ -158,7 +158,7 @@ function ProductInfo({ id, rating, src, title, price, ratingtext = "5" }) {
             </h1>
             <div className="gap">
               <p>
-                Get <b>Fast, Free Shipping</b> with
+                Get <b>Fast, Free Shipping</b> with&nbsp;
                 <span>Stridefusion Membership</span>.
               </p>
               <p>
@@ -167,7 +167,7 @@ function ProductInfo({ id, rating, src, title, price, ratingtext = "5" }) {
             </div>
             <div className="gap">
               <p>
-                <span>Free delivery</span>
+                <span>Free delivery</span>&nbsp;
                 <b>Wednesday</b>,
               </p>
               <p>
@@ -177,7 +177,7 @@ function ProductInfo({ id, rating, src, title, price, ratingtext = "5" }) {
             <div className="gap">
               <p>
                 Or fastest delivery <b>Tomorrow</b>, <b>July 30</b>. Order
-                within
+                within&nbsp;
                 <span>10 hrs 56 mins</span>
               </p>
             </div>
