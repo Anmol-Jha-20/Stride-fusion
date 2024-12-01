@@ -50,6 +50,7 @@ function Payment() {
                 price={item.price}
                 rating={item.rating}
                 ratingtext={item.ratingtext}
+                quantity={item.quantity}
               />
             ))}
           </div>
